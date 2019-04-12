@@ -13,5 +13,5 @@ end
 ##done with collect iterator
 def square_array(array)
   newArray = array.new
-  newArray = array.collect
+  newArray = array.collect{|val| val * val }
 end 
