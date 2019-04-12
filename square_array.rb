@@ -8,3 +8,10 @@ def square_array(array)
       end 
       return newArray
 end
+
+
+##done with collect iterator
+def square_array(array)
+  newArray = array.new
+  newArray = array.collect
+end 
